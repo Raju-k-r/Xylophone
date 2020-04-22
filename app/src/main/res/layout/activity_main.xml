@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/noteC"
+        android:onClick="playC"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple"/>
+
+    <Button
+        android:onClick="playD"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        android:layout_marginHorizontal="5dp"/>
+
+    <Button
+        android:onClick="playE"
+        style="@style/KeyStyle"
+        android:layout_marginHorizontal="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"/>
+
+    <Button
+        android:onClick="playF"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_green"
+        android:layout_marginHorizontal="11dp"/>
+
+    <Button
+        android:onClick="playG"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yellow"
+        android:layout_marginHorizontal="14dp"/>
+
+    <Button
+        android:onClick="playA"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange"
+        android:layout_marginHorizontal="17dp"/>
+    <Button
+        android:onClick="playB"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>
